@@ -1,9 +1,9 @@
 
 # Installing software in Ubuntu 18.04 (command line)
 - Install google chrome
-`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`
-`sudo dpkg -i google-chrome-stable_current_amd64.deb`
-`google-chrome`
+`wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb`<br/>
+`sudo dpkg -i google-chrome-stable_current_amd64.deb`<br/>
+`google-chrome`<br/>
 
 - Install Kazam (online video recording software)
 `sudo apt-get update`

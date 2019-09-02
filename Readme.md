@@ -28,3 +28,7 @@ To remove atom `sudo apt remove --purge atom`<br/>
 `sudo ./FoxitReader.enu.setup.2.4.1.0609\(r08f07f8\).x64.run`<br/>
 Thank click on `next`<br/>
 
+- VLC player
+`sudo apt update`<br/>
+`sudo apt install snap -y`<br/>
+`sudo snap install vlc`<br/>

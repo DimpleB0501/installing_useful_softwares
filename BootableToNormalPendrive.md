@@ -13,7 +13,7 @@
 - `active`<br/>
 - Choose a format:<br/>
   - FAT32 is the standard for USBs: `format fs=fat32 quick`<br/>
-  - NTFS is more modern, but isn't as widely supported: `format fs=ntfs quick`<br/>
+  - NTFS is more modern, but isn't as widely supported it is compatible with Windows: `format fs=ntfs quick`<br/>
 - `assign`<br/>
 - `exit`<br/>
 - `exit`<br/>

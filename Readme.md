@@ -21,3 +21,10 @@ To remove atom `sudo apt remove --purge atom`<br/>
 `sudo apt-get update && sudo apt-get upgrade`<br/>
 `sudo apt install shotcut`<br/>
 
+- Foxit (pdf viewer)<br/>
+`cd /tmp`<br/>
+`wget http://cdn01.foxitsoftware.com/pub/foxit/reader/desktop/linux/2.x/2.4/en_us/FoxitReader2.4.1.0609_Server_x64_enu_Setup.run.tar.gz`<br/>
+`tar -xvf FoxitReader*.tar.gz`<br/>
+`sudo ./FoxitReader.enu.setup.2.4.1.0609\(r08f07f8\).x64.run`<br/>
+Thank click on `next`<br/>
+

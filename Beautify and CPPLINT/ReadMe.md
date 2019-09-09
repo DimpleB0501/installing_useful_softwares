@@ -6,14 +6,7 @@
   - Type **uncrustify** in the search bar.
   - Select **atom-beautify**
   - You will see **Settings** goto **C++** select **Beautify on Save**. Add **uncrustifyConfig.cfg** path to **Config path**.
-  
-
-Than follow https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
-Follow steps 1st
-
-Than follow this
-https://github.com/Unibeautify/docker-beautifiers
-Do the docker or last step with sudo
+  - Install uncrustify by typing `sudo apt-get install uncrustify`
 
 
 CCPLINT

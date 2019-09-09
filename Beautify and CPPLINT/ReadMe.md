@@ -1,6 +1,12 @@
-Installing atom-beautify - Used for alignment and formatting of the code
-Atom → packages → Settings View → Install packages/Themes → uncrustify → select atom beautify → Settings → C++ path add → pratik sent documentation for alignment → Add path
-https://atom.io/packages/atom-beautify
+# Installing atom-beautify (used for alignment and formatting of the code)
+  - Open Atom
+  - Click on **Packages**
+  - Goto **Settings View**
+  - Click on **Install packages/Themes**
+  - Type **uncrustify** in the search bar.
+  - Select **atom-beautify**
+  - You will see **Settings** goto **C++** select **Beautify on Save**. Add **uncrustifyConfig.cfg** path to **Config path**.
+  
 
 Than follow https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
 Follow steps 1st

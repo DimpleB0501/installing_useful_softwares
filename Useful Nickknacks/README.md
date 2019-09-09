@@ -1,8 +1,8 @@
 - VLC player
- - Open VLC player
- - Use CTRL+N
- - In NETWORK rtsp://admin:aitoe2016@192.168.0.202. Replace  192.168.0.202 with your camera IP.
- - Go to VLC icon on the top right corner and press record and quit (I guess press it again) it will show up on your videos folder in HOME.
+  - Open VLC player
+  - Use CTRL+N
+  - In NETWORK rtsp://admin:aitoe2016@192.168.0.202. Replace  192.168.0.202 with your camera IP.
+  - Go to VLC icon on the top right corner and press record and quit (I guess press it again) it will show up on your videos folder in HOME.
 
 - FFMPEG useful commands
   Command to convert .dav to mp4

@@ -7,6 +7,7 @@
   - Select **atom-beautify**
   - You will see **Settings** goto **C++** select **Beautify on Save**. Add **uncrustifyConfig.cfg** path to **Config path**.
   - Install uncrustify by typing `sudo apt-get install uncrustify`
+ Now when you save a c++ file atom beautify should align and do its trick.
 
 
 CCPLINT

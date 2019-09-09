@@ -49,7 +49,34 @@
    - git add README.md
    - git commit -m "Inital commit"
    - git push -u origin master
- -  the stash is a stack you can stash your changes at different branches by `git stash`. However to reapply. You have to push the index of the change you want to apply by `git stash pop stash@{n}` or `git stash apply stash@{n}`
+-  The stash is a stack you can stash your changes at different branches by `git stash`. However to reapply. You have to push the index of the change you want to apply by `git stash pop stash@{n}` or `git stash apply stash@{n}`
+- Branch in GIT 
+  - Create the branch on your local machine and switch in this branch
+    `git checkout -b [name_of_your_new_branch]`
+  - Change working branch
+    `git checkout [name_of_your_new_branch]`
+  - Push the branch on github
+    `git push origin [name_of_your_new_branch]`
+  - See all branches created
+    ` git branch`
+  - Add a new remote for your branch
+    `git remote add [name_of_your_remote] [name_of_your_new_branch]`
+  - Push changes from your commit into your branch:
+    `git push [name_of_your_new_remote] [url]`
+  - Update your branch when the original branch from official repository has been updated:
+    `git fetch [name_of_your_remote]` Then you need to apply to merge changes, if your branch is derivated from develop you need to do:
+     `git merge [name_of_your_remote]/develop`
+  - Delete a branch on your local filesystem :
+    `git branch -d [name_of_your_new_branch]`
+  - To force the deletion of local branch on your filesystem :
+    `git branch -D [name_of_your_new_branch]`
+  - Delete the branch on github :
+    `git push origin :[name_of_your_new_branch]`
+  The only difference is the : to say delete, you can do it too by using github   interface to remove branch : https://help.github.com/articles/deleting-unused-branches.
+  - If you want to change default branch, it's so easy with github, in your fork go into Admin and in the drop-down list default branch choose what you want.
+  - You want create a new branch: `git branch <name_of_your_new_branch>`
+
+
 
  
   

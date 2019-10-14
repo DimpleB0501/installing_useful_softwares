@@ -2,7 +2,7 @@
   `git help [command]` <br/>
    eg: `git help init`  <br/>
 - Setting your user name and email: <br/>
-  `git config --global user.name "Dimple0501" <br/>
+  `git config --global user.name "Dimple0501" ` <br/>
   `git config --global user.email "dimple@example.com"` <br/>
 - Read your user name and email  
   `git config user.name` output **DimpleB0501**

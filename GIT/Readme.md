@@ -5,17 +5,17 @@
   `git config --global user.name "Dimple0501" ` <br/>
   `git config --global user.email "dimple@example.com"` <br/>
 - Read your user name and email  
-  `git config user.name` output **DimpleB0501**
-  `git config user.email` output **dimple@example.com**
+  `git config user.name` output **DimpleB0501** <br/>
+  `git config user.email` output **dimple@example.com** <br/>
 - Initialize (create) a repository in a folder
-  `mkdir repos`
-  `cd repos`
-  `mkdir myproj`
-  `cd myproj`
-  `git init` __Initializes an empty git repository in myproj/.git/__
-  `ls -a`   __will show a .git folder__
+  `mkdir repos`<br/>
+  `cd repos`<br/>
+  `mkdir myproj`<br/>
+  `cd myproj`<br/>
+  `git init` __Initializes an empty git repository in myproj/.git/__<br/>
+  `ls -a`   __will show a .git folder__<br/>
 - Commit to local repository
-  - `git status` view the status of files in the working tree and staging area.
+  - `git status` view the status of files in the working tree and staging area.<br/>
   - `git add .` adds all untracked or moldified files using **git add .**. Or `git add <file or directory>` example `git add fileA.txt` or `git add dirA` <br/>
      **git add** adds untracked or modified files to the staging area.
   - `git commit -m "commit message" <br/>

@@ -75,16 +75,16 @@
   The only difference is the : to say delete, you can do it too by using github   interface to remove branch : https://help.github.com/articles/deleting-unused-branches.
   - If you want to change default branch, it's so easy with github, in your fork go into Admin and in the drop-down list default branch choose what you want.
   - You want create a new branch: `git branch <name_of_your_new_branch>`
-- To make sure your branch is up-to-date with the master
-  `git checkout master`
-  `git pull upstream master`
-  `git checkout <ur branch>`
-  `git merge master`
-- Switching branches
-  `git branch (displays all branches affilitated with you)`
-  `git checkout <branch> (which branch you want to work on)`
-- Removing a remote locally
-  `git remote rm [<alias>]`
+- To make sure your branch is up-to-date with the master<br/>
+  `git checkout master`<br/>
+  `git pull upstream master`<br/>
+  `git checkout <ur branch>`<br/>
+  `git merge master` <br/>
+- Switching branches<br/>
+  `git branch (displays all branches affilitated with you)` <br/>
+  `git checkout <branch> (which branch you want to work on)` <br/>
+- Removing a remote locally<br/>
+  `git remote rm [<alias>]`<br/>
 
 
 

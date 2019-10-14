@@ -16,7 +16,9 @@
   `ls -a`   __will show a .git folder__<br/>
 - Commit to local repository
   - `git status` view the status of files in the working tree and staging area.<br/>
-  - `git add .` adds all untracked or moldified files using **git add .**. Or `git add <file or directory>` example `git add fileA.txt` or `git add dirA` <br/>
+  - `git add .` adds all untracked or moldified files using **git add .**. <br/>
+     Or <br/>
+     `git add <file or directory>` example `git add fileA.txt` or `git add dirA` <br/>
      **git add** adds untracked or modified files to the staging area.
   - `git commit -m "commit message" `<br/>
      commit message syntax `<type>[optional scope]: <description>` <br/> 

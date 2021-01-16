@@ -1,3 +1,6 @@
+# Git
+`sudo apt install git-all`<br/>
+
 
 # Installing software in Ubuntu 18.04 (command line)
 - Install google chrome<br/>

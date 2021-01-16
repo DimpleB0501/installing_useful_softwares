@@ -1,5 +1,5 @@
 # Git
-`sudo apt install git-all`<br/>
+`sudo apt install git`<br/>
 
 
 # Installing software in Ubuntu 18.04 (command line)

@@ -1,3 +1,23 @@
+# Embedded video playing in PDF in presentation mode in UBUNTU
+
+### Install okular pdf viewer
+```
+sudo apt-get install okular --fix-missing
+```
+
+### Install VLC player
+
+`sudo apt update`<br/>
+`sudo apt install snap -y`<br/>
+`sudo snap install vlc`<br/>
+
+### Change the backend of Phonon
+```
+sudo apt install phonon-backend-vlc
+```
+On newer versions of Ubuntu, the crucial package is `phonon4qt5-backend-vlc`.<br/>
+Run your pdf file in presentation mode in okular and you will be able to play embedded videos. 
+
 # Git
 `sudo apt install git`<br/>
 

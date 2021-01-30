@@ -1,7 +1,7 @@
 # In Ubuntu 
 Unmount all currently mounted partitions on that device, if any. Then run the following, replacing /dev/sdX with the name of your device:
 
-sudo shred -v /dev/sdX
+`sudo shred -v /dev/sdX`
 
 This will overwrite all the blocks on the device with random data three times, the -v flag is for verbose and will print the current progress.
 
@@ -9,12 +9,12 @@ You can add the option -nN to only do this N times, to save time on large capaci
 
 You can also set all bits to zero after the last iteration by adding the option -z, I prefer to do this.
 
-sudo shred -v -n1 -z /dev/sdX
+`sudo shred -v -n1 -z /dev/sdX`
 
 After this, you would have to repartition the device. The easiest way is to install GParted and use it:
 
-sudo apt-get install gparted
-gksu gparted
+`sudo apt-get install gparted`
+`gksu gparted`
 
 Choose your device in the upper-right corner list. Then select Device -> Create partition table to create a partition table on the device.
 

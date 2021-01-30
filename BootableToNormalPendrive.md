@@ -1,7 +1,24 @@
-# In Ubuntu 18.04 
-- Locate your drive `df -h`
-- `sudo mkfs.vfat /dev/sdb1`
-- umount it `sudo umount /dev/sdb1`
+# In Ubuntu 
+Unmount all currently mounted partitions on that device, if any. Then run the following, replacing /dev/sdX with the name of your device:
+
+sudo shred -v /dev/sdX
+
+This will overwrite all the blocks on the device with random data three times, the -v flag is for verbose and will print the current progress.
+
+You can add the option -nN to only do this N times, to save time on large capacity devices. This might take a while, depending on the size of your external hard drive (I think it takes twenty minutes or so for my 4 GB flash drive).
+
+You can also set all bits to zero after the last iteration by adding the option -z, I prefer to do this.
+
+sudo shred -v -n1 -z /dev/sdX
+
+After this, you would have to repartition the device. The easiest way is to install GParted and use it:
+
+sudo apt-get install gparted
+gksu gparted
+
+Choose your device in the upper-right corner list. Then select Device -> Create partition table to create a partition table on the device.
+
+Then add a single partition that uses all of the unallocated space on the device, choosing fat32 as the file system. Apply the changes by click the Apply button (the green checkmark) in the toolbar.
 
 # In Windows
 - Run `cmd` as Administrator <br/>

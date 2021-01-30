@@ -13,8 +13,8 @@ You can also set all bits to zero after the last iteration by adding the option 
 
 After this, you would have to repartition the device. The easiest way is to install GParted and use it:
 
-`sudo apt-get install gparted`
-`gksu gparted`
+`sudo apt-get install gparted` <br/>
+`sudo -H gparted`
 
 Choose your device in the upper-right corner list. Then select Device -> Create partition table to create a partition table on the device.
 

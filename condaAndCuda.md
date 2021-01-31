@@ -1,7 +1,9 @@
 # Ubuntu 20
-Anaconda installation: `https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/`
+Anaconda [installation](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
 <br/>
-
+Installation of cuda via [deb](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=2004&target_type=debnetwork) based on your distro 
+<br/>
+Installation of [cudnn](https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html)
 # Ubuntu 18
 Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 Anaconda [installation](https://www.digitalocean.com/community/tutorials/how-to-install-anaconda-on-ubuntu-18-04-quickstart) and [installing](https://medium.com/analytics-vidhya/how-i-installed-cuda-10-0-for-pytorch-in-linux-mint-2ce26dd1930f) cuda 10.1 and cudnn for in-built Nvidia GPU. 

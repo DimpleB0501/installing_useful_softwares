@@ -18,7 +18,7 @@ NVCC location in my computer <br/>
 Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
-Download tgz file (**cuDNN Library for Linux (x86_64)**) for cudnn [from](https://developer.nvidia.com/cudnn)
+Download tgz file (**cuDNN Library for Linux (x86_64)**) for cudnn from [nvidia page](https://developer.nvidia.com/cudnn)
 <br/>
 
 ```

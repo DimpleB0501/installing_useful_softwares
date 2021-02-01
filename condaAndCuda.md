@@ -19,7 +19,7 @@ Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
 <br/>
-Download tgz file cuDNN Library for Linux (x86_64) for cudnn [from](https://developer.nvidia.com/cudnn) <br/>
+Download tgz file cuDNN Library for Linux (x86_64) for cudnn [from](https://developer.nvidia.com/cudnn/) <br/>
 
 ```
 tar -xzvf cudnn-11.2-linux-x64-v8.1.0.77.tgz 
@@ -28,7 +28,9 @@ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn*.h /usr/local/cuda/lib64/libcudnn*
 ```
 
-after this if you do sudo ldconfig you might have errors like `sudo ldconfig /sbin/ldconfig.real: /usr/local/cuda/targets/x86_64-linux/lib/libcudnn_ops_train.so.8 is not a symbolic link` or similar. <br/>
+after this if you do sudo ldconfig you might have errors like <br/>
+`sudo ldconfig /sbin/ldconfig.real: /usr/local/cuda/targets/x86_64-linux/lib/libcudnn_ops_train.so.8 is not a symbolic link` or similar. <br/>
+
 For example: For *libcudnn_ops_train.so.8*, <br/>
 ```
 cd /usr/local/cuda/lib64

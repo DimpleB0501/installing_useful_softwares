@@ -19,7 +19,7 @@ Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
 <br/>
-Download tgz file cuDNN Library for Linux (x86_64) for cudnn [from](https://developer.nvidia.com/cudnn/) <br/>
+Download tgz file cuDNN Library for Linux (x86_64) for cudnn [installation](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)<br/>
 
 ```
 tar -xzvf cudnn-11.2-linux-x64-v8.1.0.77.tgz 

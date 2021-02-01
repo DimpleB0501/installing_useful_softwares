@@ -14,6 +14,8 @@ export PATH
 ```
 
 Than check again `nvcc --version`
+![nvcc](nvcc.png)
+
 <br/>
 Download tgz file (**cuDNN Library for Linux (x86_64)**) for cudnn from (https://developer.nvidia.com/cudnn).
 ```

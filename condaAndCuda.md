@@ -29,7 +29,7 @@ For example: For *libcudnn_ops_train.so.8*, <br/>
 cd /usr/local/cuda/lib64
 ls -lha libcudnn*
 ```
-Find **so.8.1.0** number, it will change depending on cudnn version, do this (replacing libcudnn_ops_train with corresponding sudo ldconfig error file) and run these steps
+Find **so.8.1.0** number, it will change depending on cudnn version, do this (replacing libcudnn_ops_train with corresponding sudo ldconfig error file) and run these steps <br/>
 ```
 sudo rm libcudnn_ops_train.so
 sudo rm libcudnn_ops_train.so.8
@@ -37,7 +37,14 @@ sudo ln libcudnn_ops_train.so.8.1.0 libcudnn_ops_train.so.8
 sudo ln libcudnn_ops_train.so.8 libcudnn_ops_train.so
 ```
 
+Install torch torchvision by <br/>
+```
+sudo apt install python3-pip
+pip3 install torch torchvision
+```
 
+Run the following to see if GPU is accessed properly 
+![cuda](cuda.png)
 
 # Ubuntu 18
 Create (and activate) a new environment, named `cv-nd` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.

@@ -19,7 +19,8 @@ Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
 <br/>
-Download tgz file (cuDNN Library for Linux (x86_64)) for cudnn [from](https://developer.nvidia.com/cudnn)
+Download tgz file cuDNN Library for Linux (x86_64) for cudnn [from](https://developer.nvidia.com/cudnn) <br/>
+
 ```
 tar -xzvf cudnn-11.2-linux-x64-v8.1.0.77.tgz 
 sudo cp cuda/include/cudnn*.h /usr/local/cuda/include

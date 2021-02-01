@@ -18,8 +18,7 @@ NVCC location in my computer <br/>
 Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
-<br/>
-Download tgz file cuDNN Library for Linux (x86_64) for cudnn [installation](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
+Download tgz file cuDNN Library for Linux (x86_64) for cudnn [from](https://linuxize.com/post/how-to-install-anaconda-on-ubuntu-20-04/)
 <br/>
 
 ```

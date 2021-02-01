@@ -6,7 +6,7 @@ by `sudo dpkg -i deb_package`. <br/>
 If nvcc --version is empty (meaning cant find cuda)
 Add the following line in your bashrc <br/>
 ```
-export CUDA_HOME=/usr/local/cuda-11 
+export CUDA_HOME=/usr/local/cuda-11 # replace this with your cuda-vv version
 export LD_LIBRARY_PATH=${CUDA_HOME}/lib64 
 
 PATH=${CUDA_HOME}/bin:${PATH} 

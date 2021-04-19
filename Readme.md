@@ -55,3 +55,6 @@ Thank click on `next`<br/>
 `sudo apt update`<br/>
 `sudo apt install snap -y`<br/>
 `sudo snap install vlc`<br/>
+
+# Installing nvidia drivers for ubuntu 16
+https://ubuntuhandbook.org/index.php/2019/04/nvidia-430-09-gtx-1650-support/

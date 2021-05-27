@@ -20,6 +20,8 @@ Than check again `nvcc --version`
 ![nvcc](nvcc.png)
 
 Download tgz file (**cuDNN Library for Linux (x86_64)**) for cudnn from [nvidia page](https://developer.nvidia.com/cudnn)
+**Repeat this if there are issues, I mean from here to till sudo ln**
+
 <br/>
 
 ```

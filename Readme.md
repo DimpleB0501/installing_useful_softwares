@@ -1,4 +1,5 @@
 # Docker
+- User https://hub.docker.com/ to search
 - File name should be Captial Dockerfile
 - sudo docker build .-t myalpineimg:2020 (imagename:tag) 
 - sudo docker run myaplineimg:2020

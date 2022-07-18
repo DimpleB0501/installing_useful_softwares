@@ -1,3 +1,8 @@
+# Docker
+- File name should be Captial Dockerfile
+- sudo docker build .-t myalpineimg:2020 (imagename:tag) 
+- sudo docker run myaplineimg:2020
+
 # Embedded video playing in PDF in presentation mode in UBUNTU
 
 ### Install okular pdf viewer

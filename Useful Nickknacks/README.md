@@ -1,3 +1,5 @@
+- Connecting to other computer on the same network using ssh
+  ssh://user_name@ip_address
 - VLC player
   - Open VLC player
   - Use CTRL+N

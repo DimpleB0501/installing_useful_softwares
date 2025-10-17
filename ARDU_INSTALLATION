@@ -4,4 +4,8 @@ Properitary tested driver and the cuda version
 https://developer.nvidia.com/cuda-11-8-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_network
 
 # ATOM INSTALL
+sudo apt-get install git
 https://github.com/atom/atom/releases
+
+# ARDUPILOT 
+https://ardupilot.org/dev/docs/building-setup-linux.html
